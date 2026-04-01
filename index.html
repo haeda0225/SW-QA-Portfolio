@@ -82,15 +82,15 @@ ul li { font-size: 14px; margin-bottom: 4px; color: #37352f; }
 <div class="callout">
   <span class="callout-icon">💡</span>
   <div class="callout-text">
-    재무·비즈니스 실무 8년에서 QA로 전향하는 이유는 단순합니다. 저는 항상 <strong>"이게 맞는가?"</strong>를 확인하는 사람이었습니다.<br>
-    숫자 하나가 틀려도 전체 흐름이 무너진다는 걸 몸으로 알고 있고, 그 꼼꼼함이 소프트웨어 품질 검증에 그대로 연결된다고 생각합니다.
+    8년간의 재무·비즈니스 실무에서 쌓은 <strong>정확한 검증, 데이터 확인, 문제 원인 분석 역량</strong>을 바탕으로, 데이터 분석 → 클라우드 인프라 → SW 테스트 자동화까지 기술 역량을 단계적으로 확장해왔습니다.<br><br>
+    현재는 Python 기반 테스트 자동화와 소프트웨어 테스트 실습을 통해 SW QA 직무로의 전환을 준비하고 있습니다. 재무·데이터 업무에서 길러온 꼼꼼함과 분석적 사고를 바탕으로, 서비스 품질 향상에 기여하는 QA 엔지니어로 성장하고자 합니다.
   </div>
 </div>
 
 <table class="prop-table">
-  <tr><td>배경</td><td>재무 · 비즈니스 실무 8년</td></tr>
-  <tr><td>전환 동기</td><td>정확한 검증, 데이터 확인, 원인 분석 역량 → SW QA에 직결</td></tr>
-  <tr><td>현재</td><td>SW테스트 엔지니어링 교육 이수 중 (2026.03 ~ 04)</td></tr>
+  <tr><td>배경</td><td>재무 · 비즈니스 실무 8년 → 데이터분석 → 클라우드 인프라 → SW QA</td></tr>
+  <tr><td>전환 동기</td><td>재무·데이터 업무에서 길러온 검증·분석 습관이 QA 사고방식과 같은 맥락</td></tr>
+  <tr><td>현재</td><td>SW테스트 엔지니어링 교육 이수 중 (2026.03 ~ 04) · 학습 커리큘럼 완료</td></tr>
   <tr><td>목표 자격증</td><td><span class="tag blue">ISTQB CTFL</span> <span class="tag blue">CSTS FL</span></td></tr>
   <tr><td>방향성</td><td>테스트 자동화 역량을 갖춘 QA 엔지니어로 성장</td></tr>
 </table>
@@ -324,12 +324,68 @@ ul li { font-size: 14px; margin-bottom: 4px; color: #37352f; }
 <br>
 
 <div class="proj-card">
-  <h3 style="margin-top:0;">SW테스트 엔지니어링 교육</h3>
+  <div class="proj-card-header">
+    <div><h3 style="margin:0 0 4px;">SW테스트 엔지니어링 교육</h3><p style="font-size:13px;color:#787774;margin:0;">SW QA 실무 역량 강화 과정</p></div>
+    <span class="status-badge status-wip">이수 중</span>
+  </div>
   <table class="prop-table">
     <tr><td>기간</td><td>2026년 3월 3일 ~ 4월 30일 (9주)</td></tr>
-    <tr><td>상태</td><td><span class="status-badge status-wip">이수 중</span></td></tr>
-    <tr><td>주요 학습</td><td>SW 테스트 기초, Pytest, Selenium, Playwright, API Testing, 테스트 케이스 설계</td></tr>
+    <tr><td>학습 현황</td><td><span class="tag green">커리큘럼 전 과정 학습 완료</span></td></tr>
+    <tr><td>실습 프로젝트</td><td>PRJ2 (UI + API 자동화) 병행 진행 중</td></tr>
     <tr><td>링크</td><td><a href="https://apply.jobaba.net/bsns/bsnsDetailView.do?bsnsSeq=4999" style="color:#4a90d9;font-size:13px;">교육 공고 바로가기</a></td></tr>
+  </table>
+  <div class="toggle"><div class="toggle-header" onclick="tog(this)"><span class="toggle-arrow">▶</span> 학습 커리큘럼 상세</div><div class="toggle-body">
+    <p style="font-size:13px;color:#9b9a97;margin-bottom:8px;">1~2일차 · Python 기본 문법</p>
+    <ul>
+      <li>자료구조 (리스트, 튜플, 딕셔너리), 조건문, 반복문</li>
+      <li>함수, 예외처리, 클래스 및 상속, 모듈 구조</li>
+    </ul>
+    <p style="font-size:13px;color:#9b9a97;margin:12px 0 8px;">3~4일차 · Pytest 단위 테스트</p>
+    <ul>
+      <li>assertion 다양한 활용 (approx, raises, warns)</li>
+      <li>fixture (scope, yield), parametrize, CSV 기반 데이터 테스트</li>
+      <li>conftest.py, pytest_generate_tests 활용</li>
+      <li>member_manager 회원관리 시스템 테스트 설계 · 구현</li>
+    </ul>
+    <p style="font-size:13px;color:#9b9a97;margin:12px 0 8px;">5~6일차 · Selenium UI 자동화</p>
+    <ul>
+      <li>WebDriver 기본 조작, WebDriverWait, expected_conditions</li>
+      <li>Page Object Model (POM) 구조 설계</li>
+      <li>로그인/로그아웃/회원가입 시나리오 자동화 (parametrize 적용)</li>
+      <li>headless 옵션, conftest driver fixture 분리</li>
+    </ul>
+    <p style="font-size:13px;color:#9b9a97;margin:12px 0 8px;">7~8일차 · Playwright UI 자동화</p>
+    <ul>
+      <li>browser / context / page 구조 이해</li>
+      <li>Playwright POM 구조 설계 (LoginPage, SignupPage)</li>
+      <li>동적 로딩 테스트, expect 기반 assertion</li>
+      <li>Mock API 응답 처리 (page.route 활용)</li>
+      <li>Selenium vs Playwright 비교 실습</li>
+    </ul>
+  </div></div>
+</div>
+
+<div class="proj-card">
+  <div class="proj-card-header">
+    <div><h3 style="margin:0 0 4px;">클라우드 인프라스트럭쳐 엔지니어링 교육</h3><p style="font-size:13px;color:#787774;margin:0;">주식회사 구름 · 3개월</p></div>
+    <span class="status-badge status-done">이수 완료</span>
+  </div>
+  <table class="prop-table">
+    <tr><td>훈련 분야</td><td>클라우드 인프라스트럭쳐 엔지니어링 (NCS 20010215)</td></tr>
+    <tr><td>주요 학습</td><td>Docker, Kubernetes, Kafka, Flink, Kinesis 기반 분산 처리 시스템 아키텍처 설계</td></tr>
+    <tr><td>성과</td><td>실시간 데이터 파이프라인 프로토타입 구축 (MSA 5~7개), ELK·Grafana 모니터링 대시보드 구현</td></tr>
+  </table>
+</div>
+
+<div class="proj-card">
+  <div class="proj-card-header">
+    <div><h3 style="margin:0 0 4px;">빅데이터 분석 교육</h3><p style="font-size:13px;color:#787774;margin:0;">팀스파르타 · 6개월 + 프리랜서 실무 2개월</p></div>
+    <span class="status-badge status-done">이수 완료</span>
+  </div>
+  <table class="prop-table">
+    <tr><td>훈련 분야</td><td>빅데이터분석 (NCS 20010105)</td></tr>
+    <tr><td>주요 학습</td><td>Python 기반 데이터 전처리, Kaggle 데이터셋 활용, 머신러닝 모델링, 데이터 시각화</td></tr>
+    <tr><td>성과</td><td>Kaggle 기반 기능 구현 · 유저 피드백 수집 · 데이터분석 프리랜서 실무 2개월</td></tr>
   </table>
 </div>
 
